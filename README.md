@@ -8,6 +8,12 @@ This repository contains the Jupyter Notebooks to benchmark deep learning models
 | `public-dataset-models-benchmarking.ipynb` | Replicates the benchmarking using a publicly available OCT dataset from Kaggle. |
 | `xai-performance-on-resnet152.ipynb` | Applies Grad-CAM explainability to ResNet152 outputs, with manual comparison to annotated OCT images. |
 
+Public dataset: Link to source https://www.kaggle.com/datasets/obulisainaren/retinal-oct-c8
+
+Private KAUH dataset: The dataset contains retrospective OCT scans and associated patient demographic information. This data is not publicly shareable due to the following reasons:
+-It contains sensitive medical information that is protected under privacy laws and ethical research standards.
+-The dataset was collected under an IRB (Institutional Review Board) approval that restricts its use to this specific research project only.
+-Informed consent for open data sharing was not obtained from patients at the time of data collection
 
 • All experiments in this study were carried out on Kaggle platform with GPU acceleration enabled.
 
